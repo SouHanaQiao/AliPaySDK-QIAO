@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "39B7C05D6FE6581ED39C6C4D"
+               BlueprintIdentifier = "767C67B3124ED223FF7DB82E"
                BuildableName = "AliPaySDK_QIAO.framework"
                BlueprintName = "AliPaySDK-QIAO"
                ReferencedContainer = "container:Pods.xcodeproj">
