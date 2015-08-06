@@ -1,0 +1,6 @@
+framework module AliPaySDK_QIAO {
+  umbrella header "AliPaySDK-QIAO-umbrella.h"
+
+  export *
+  module * { export * }
+}

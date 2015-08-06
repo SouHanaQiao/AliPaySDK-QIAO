@@ -1,0 +1,14 @@
+PODS:
+  - AliPaySDK-QIAO (0.1.0)
+
+DEPENDENCIES:
+  - AliPaySDK-QIAO (from `../`)
+
+EXTERNAL SOURCES:
+  AliPaySDK-QIAO:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AliPaySDK-QIAO: a845bc904ad9785e324d62d59d260ec0aa0fa64b
+
+COCOAPODS: 0.38.2

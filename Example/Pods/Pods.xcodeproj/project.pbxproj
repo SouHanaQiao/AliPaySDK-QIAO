@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DAD9B581AA7AFD54BB6B83337AFE663 /* AliPaySDK-QIAO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE245C43592F50ED1A8B3AB90CA1350 /* AliPaySDK-QIAO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13EB615F462F35C0DE6D1D0E1CAE91E3 /* AliPaySDK-QIAO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B92FB6E79154DBE7B1451DC792DBA9C /* AliPaySDK-QIAO.bundle */; };
+		1511DCCEFD632615B6D21C38EC97B04D /* Pods-AliPaySDK-QIAO_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98569361D5A2AA1DB3DDBDF81725D7AC /* Pods-AliPaySDK-QIAO_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0569BAD49B736DCD5FD387A66F6DD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264BE959944A812903DA3C7AE62CADAD /* Foundation.framework */; };
+		C568F7F431EC76AD4464BB6145FDAFA3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DBDFD8F9884DB26DDBA74D44ACF8C2 /* ReplaceMe.m */; };
+		C752094F9E118FB4F14A242A5A4472A2 /* AliPaySDK-QIAO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE5D4F09AD57B9DD564820BE5ED476E /* AliPaySDK-QIAO-dummy.m */; };
+		D65BC9575FD9019ED4528C327F88AE5B /* Pods-AliPaySDK-QIAO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBE1AA850B726C6100F2C6468478C4 /* Pods-AliPaySDK-QIAO_Tests-dummy.m */; };
+		FC144D70C5BFFCF6F110FE82574B1ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264BE959944A812903DA3C7AE62CADAD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B0904235AC2840CD40F560A40B58AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2904B022EAA4964B7FE12C8CC7235730;
+			remoteInfo = "AliPaySDK-QIAO";
+		};
+		D8259BA614B78AA7FEE0EE23A722B409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C4BEA3122CBBF65683BFF9AF007954;
+			remoteInfo = "AliPaySDK-QIAO-AliPaySDK-QIAO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB632C65E0F0F3D2CCD284B6CB9E4C2 /* Pods-AliPaySDK-QIAO_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliPaySDK-QIAO_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		139AA7B1A6B7FB0E6BAC2A96C1E6236A /* Pods-AliPaySDK-QIAO_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliPaySDK-QIAO_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		16DBDFD8F9884DB26DDBA74D44ACF8C2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		264BE959944A812903DA3C7AE62CADAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2EFBE1AA850B726C6100F2C6468478C4 /* Pods-AliPaySDK-QIAO_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliPaySDK-QIAO_Tests-dummy.m"; sourceTree = "<group>"; };
+		414FC3EB5B424A1AFED3B8B25AB00517 /* AliPaySDK-QIAO-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AliPaySDK-QIAO-Private.xcconfig"; sourceTree = "<group>"; };
+		4EE245C43592F50ED1A8B3AB90CA1350 /* AliPaySDK-QIAO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliPaySDK-QIAO-umbrella.h"; sourceTree = "<group>"; };
+		562DFFBAEA2CA6C22466D90E94AF7195 /* Pods-AliPaySDK-QIAO_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliPaySDK-QIAO_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A75BE5AA74C94BA58E721BC8FA37EF2 /* AliPaySDK-QIAO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliPaySDK-QIAO-prefix.pch"; sourceTree = "<group>"; };
+		74008694E18C3769D0E99E97D6F5BB05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE344A11AAE467C86D20F0A66C82803 /* Pods-AliPaySDK-QIAO_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliPaySDK-QIAO_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		85ECD874D4FF80336145DA94443B4D06 /* AliPaySDK-QIAO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "AliPaySDK-QIAO.modulemap"; sourceTree = "<group>"; };
+		8620356BE2EF3A46D544418D11398275 /* Pods-AliPaySDK-QIAO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliPaySDK-QIAO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		89DEC0284F9A75CE16D09673BBBD1070 /* Pods-AliPaySDK-QIAO_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AliPaySDK-QIAO_Tests.modulemap"; sourceTree = "<group>"; };
+		98569361D5A2AA1DB3DDBDF81725D7AC /* Pods-AliPaySDK-QIAO_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliPaySDK-QIAO_Tests-umbrella.h"; sourceTree = "<group>"; };
+		98A220BFA78F1DAD83E11816E4F57835 /* Pods-AliPaySDK-QIAO_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliPaySDK-QIAO_Tests-resources.sh"; sourceTree = "<group>"; };
+		9B92FB6E79154DBE7B1451DC792DBA9C /* AliPaySDK-QIAO.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AliPaySDK-QIAO.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97898578892726F67EA7E0DA999CE80 /* AliPaySDK-QIAO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AliPaySDK-QIAO.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB5416247A23BB158B64125AB68DFEFB /* AliPaySDK_QIAO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AliPaySDK_QIAO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E710C37A330334ECC12F6548E1DC7FBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F126CCE54252FBB76E3B209150526602 /* Pods_AliPaySDK_QIAO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliPaySDK_QIAO_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE5D4F09AD57B9DD564820BE5ED476E /* AliPaySDK-QIAO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliPaySDK-QIAO-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52CDDAE39A395E318D17BBF2BD7B4E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0569BAD49B736DCD5FD387A66F6DD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB98F911520737A4F40AB676590B716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC144D70C5BFFCF6F110FE82574B1ED5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BDD3A313B2BC311171AA29916D8B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EF9358238EB6556E90EF4EEBC3556DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85ECD874D4FF80336145DA94443B4D06 /* AliPaySDK-QIAO.modulemap */,
+				A97898578892726F67EA7E0DA999CE80 /* AliPaySDK-QIAO.xcconfig */,
+				414FC3EB5B424A1AFED3B8B25AB00517 /* AliPaySDK-QIAO-Private.xcconfig */,
+				FEE5D4F09AD57B9DD564820BE5ED476E /* AliPaySDK-QIAO-dummy.m */,
+				5A75BE5AA74C94BA58E721BC8FA37EF2 /* AliPaySDK-QIAO-prefix.pch */,
+				4EE245C43592F50ED1A8B3AB90CA1350 /* AliPaySDK-QIAO-umbrella.h */,
+				E710C37A330334ECC12F6548E1DC7FBE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AliPaySDK-QIAO";
+			sourceTree = "<group>";
+		};
+		5181B807706F1E2517A45DDFD29EC933 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				543E2F4B036140D1177AC107EEB4A8F3 /* AliPaySDK-QIAO */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				264BE959944A812903DA3C7AE62CADAD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		543E2F4B036140D1177AC107EEB4A8F3 /* AliPaySDK-QIAO */ = {
+			isa = PBXGroup;
+			children = (
+				EBE7C17C9A2CC28E30D042B2098F0EF5 /* Pod */,
+				1EF9358238EB6556E90EF4EEBC3556DE /* Support Files */,
+			);
+			name = "AliPaySDK-QIAO";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				5181B807706F1E2517A45DDFD29EC933 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				9BE22C6A9D7781D50732748028BEE174 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE22C6A9D7781D50732748028BEE174 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3EBF52A857A390D73910A478159921A /* Pods-AliPaySDK-QIAO_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B92FB6E79154DBE7B1451DC792DBA9C /* AliPaySDK-QIAO.bundle */,
+				BB5416247A23BB158B64125AB68DFEFB /* AliPaySDK_QIAO.framework */,
+				F126CCE54252FBB76E3B209150526602 /* Pods_AliPaySDK_QIAO_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD9F8E15E86113CACBC8874BC9963D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				16DBDFD8F9884DB26DDBA74D44ACF8C2 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E3EBF52A857A390D73910A478159921A /* Pods-AliPaySDK-QIAO_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				74008694E18C3769D0E99E97D6F5BB05 /* Info.plist */,
+				89DEC0284F9A75CE16D09673BBBD1070 /* Pods-AliPaySDK-QIAO_Tests.modulemap */,
+				562DFFBAEA2CA6C22466D90E94AF7195 /* Pods-AliPaySDK-QIAO_Tests-acknowledgements.markdown */,
+				0EB632C65E0F0F3D2CCD284B6CB9E4C2 /* Pods-AliPaySDK-QIAO_Tests-acknowledgements.plist */,
+				2EFBE1AA850B726C6100F2C6468478C4 /* Pods-AliPaySDK-QIAO_Tests-dummy.m */,
+				139AA7B1A6B7FB0E6BAC2A96C1E6236A /* Pods-AliPaySDK-QIAO_Tests-frameworks.sh */,
+				98A220BFA78F1DAD83E11816E4F57835 /* Pods-AliPaySDK-QIAO_Tests-resources.sh */,
+				98569361D5A2AA1DB3DDBDF81725D7AC /* Pods-AliPaySDK-QIAO_Tests-umbrella.h */,
+				8620356BE2EF3A46D544418D11398275 /* Pods-AliPaySDK-QIAO_Tests.debug.xcconfig */,
+				7EE344A11AAE467C86D20F0A66C82803 /* Pods-AliPaySDK-QIAO_Tests.release.xcconfig */,
+			);
+			name = "Pods-AliPaySDK-QIAO_Tests";
+			path = "Target Support Files/Pods-AliPaySDK-QIAO_Tests";
+			sourceTree = "<group>";
+		};
+		EBE7C17C9A2CC28E30D042B2098F0EF5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CFD9F8E15E86113CACBC8874BC9963D2 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08FE0E437FF639D7B5BBE40A99D84B92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1511DCCEFD632615B6D21C38EC97B04D /* Pods-AliPaySDK-QIAO_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290F5E31E56FBDB2385B392F5AB577AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD9B581AA7AFD54BB6B83337AFE663 /* AliPaySDK-QIAO-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2904B022EAA4964B7FE12C8CC7235730 /* AliPaySDK-QIAO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33320A408D1ED63EA1DCA36E33E3C4A4 /* Build configuration list for PBXNativeTarget "AliPaySDK-QIAO" */;
+			buildPhases = (
+				F6E147E79B53B9D69D70D1ED39E0AFB5 /* Sources */,
+				8EB98F911520737A4F40AB676590B716 /* Frameworks */,
+				6BD80E2A5984CA9AE06D5E1CDBB8E19D /* Resources */,
+				290F5E31E56FBDB2385B392F5AB577AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E2FBF9E9369523C6C8C71CB18B7B49 /* PBXTargetDependency */,
+			);
+			name = "AliPaySDK-QIAO";
+			productName = "AliPaySDK-QIAO";
+			productReference = BB5416247A23BB158B64125AB68DFEFB /* AliPaySDK_QIAO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		31C4BEA3122CBBF65683BFF9AF007954 /* AliPaySDK-QIAO-AliPaySDK-QIAO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A17278E91A829A1FF3A4BE81E6C1B36 /* Build configuration list for PBXNativeTarget "AliPaySDK-QIAO-AliPaySDK-QIAO" */;
+			buildPhases = (
+				FA6EF2F7A6FE47EDEAC5ACCDDC9DCCDF /* Sources */,
+				95BDD3A313B2BC311171AA29916D8B1C /* Frameworks */,
+				39E969E86DF12FD5383F7D1AAB3433DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AliPaySDK-QIAO-AliPaySDK-QIAO";
+			productName = "AliPaySDK-QIAO-AliPaySDK-QIAO";
+			productReference = 9B92FB6E79154DBE7B1451DC792DBA9C /* AliPaySDK-QIAO.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ED8C4E170FF30A031BA9401F470DD191 /* Pods-AliPaySDK-QIAO_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4A4B3B5BE70551F8A56E2770B02040 /* Build configuration list for PBXNativeTarget "Pods-AliPaySDK-QIAO_Tests" */;
+			buildPhases = (
+				F3995B4FF20958F6EDF70BC4F23DE8CA /* Sources */,
+				52CDDAE39A395E318D17BBF2BD7B4E66 /* Frameworks */,
+				08FE0E437FF639D7B5BBE40A99D84B92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B52424EBB78D98B1F453FEC93C95AC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-AliPaySDK-QIAO_Tests";
+			productName = "Pods-AliPaySDK-QIAO_Tests";
+			productReference = F126CCE54252FBB76E3B209150526602 /* Pods_AliPaySDK_QIAO_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2904B022EAA4964B7FE12C8CC7235730 /* AliPaySDK-QIAO */,
+				31C4BEA3122CBBF65683BFF9AF007954 /* AliPaySDK-QIAO-AliPaySDK-QIAO */,
+				ED8C4E170FF30A031BA9401F470DD191 /* Pods-AliPaySDK-QIAO_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39E969E86DF12FD5383F7D1AAB3433DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD80E2A5984CA9AE06D5E1CDBB8E19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EB615F462F35C0DE6D1D0E1CAE91E3 /* AliPaySDK-QIAO.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3995B4FF20958F6EDF70BC4F23DE8CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65BC9575FD9019ED4528C327F88AE5B /* Pods-AliPaySDK-QIAO_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E147E79B53B9D69D70D1ED39E0AFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C752094F9E118FB4F14A242A5A4472A2 /* AliPaySDK-QIAO-dummy.m in Sources */,
+				C568F7F431EC76AD4464BB6145FDAFA3 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6EF2F7A6FE47EDEAC5ACCDDC9DCCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17E2FBF9E9369523C6C8C71CB18B7B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AliPaySDK-QIAO-AliPaySDK-QIAO";
+			target = 31C4BEA3122CBBF65683BFF9AF007954 /* AliPaySDK-QIAO-AliPaySDK-QIAO */;
+			targetProxy = D8259BA614B78AA7FEE0EE23A722B409 /* PBXContainerItemProxy */;
+		};
+		2B52424EBB78D98B1F453FEC93C95AC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AliPaySDK-QIAO";
+			target = 2904B022EAA4964B7FE12C8CC7235730 /* AliPaySDK-QIAO */;
+			targetProxy = 11B0904235AC2840CD40F560A40B58AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3979128F1598CE01DD181FC04FEAD7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8620356BE2EF3A46D544418D11398275 /* Pods-AliPaySDK-QIAO_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AliPaySDK-QIAO_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AliPaySDK-QIAO_Tests/Pods-AliPaySDK-QIAO_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AliPaySDK_QIAO_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48B96D0D193B69AD073B87BC944ED652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414FC3EB5B424A1AFED3B8B25AB00517 /* AliPaySDK-QIAO-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliPaySDK-QIAO/AliPaySDK-QIAO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AliPaySDK-QIAO/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AliPaySDK-QIAO/AliPaySDK-QIAO.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AliPaySDK_QIAO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6819E6103224EA495607458168401649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414FC3EB5B424A1AFED3B8B25AB00517 /* AliPaySDK-QIAO-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "AliPaySDK-QIAO";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		80683FE0B695CD3021FDF48344924740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414FC3EB5B424A1AFED3B8B25AB00517 /* AliPaySDK-QIAO-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "AliPaySDK-QIAO";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8E68CE4CF94E1920A0232D2871191528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE344A11AAE467C86D20F0A66C82803 /* Pods-AliPaySDK-QIAO_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AliPaySDK-QIAO_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AliPaySDK-QIAO_Tests/Pods-AliPaySDK-QIAO_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AliPaySDK_QIAO_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5D2DD86C8D1DFCBE5F5EB07456AC1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414FC3EB5B424A1AFED3B8B25AB00517 /* AliPaySDK-QIAO-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliPaySDK-QIAO/AliPaySDK-QIAO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AliPaySDK-QIAO/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AliPaySDK-QIAO/AliPaySDK-QIAO.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AliPaySDK_QIAO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33320A408D1ED63EA1DCA36E33E3C4A4 /* Build configuration list for PBXNativeTarget "AliPaySDK-QIAO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D2DD86C8D1DFCBE5F5EB07456AC1FE /* Debug */,
+				48B96D0D193B69AD073B87BC944ED652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A17278E91A829A1FF3A4BE81E6C1B36 /* Build configuration list for PBXNativeTarget "AliPaySDK-QIAO-AliPaySDK-QIAO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6819E6103224EA495607458168401649 /* Debug */,
+				80683FE0B695CD3021FDF48344924740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4A4B3B5BE70551F8A56E2770B02040 /* Build configuration list for PBXNativeTarget "Pods-AliPaySDK-QIAO_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3979128F1598CE01DD181FC04FEAD7B3 /* Debug */,
+				8E68CE4CF94E1920A0232D2871191528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
