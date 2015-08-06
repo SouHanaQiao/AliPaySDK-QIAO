@@ -1,5 +1,7 @@
 PODS:
-  - AliPaySDK-QIAO (0.1.0)
+  - AliPaySDK-QIAO (2.2.3):
+    - AliPaySDK-QIAO/Util (= 2.2.3)
+  - AliPaySDK-QIAO/Util (2.2.3)
 
 DEPENDENCIES:
   - AliPaySDK-QIAO (from `../`)
@@ -9,6 +11,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AliPaySDK-QIAO: a845bc904ad9785e324d62d59d260ec0aa0fa64b
+  AliPaySDK-QIAO: ee80497bf7a079049078f1504bf311e6ca73be25
 
 COCOAPODS: 0.38.2

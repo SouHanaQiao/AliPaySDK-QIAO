@@ -1,0 +1,2 @@
+ALIPAYSDK_QIAO_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/Assets" "$(PODS_ROOT)/../../Pod/Assets"
+ALIPAYSDK_QIAO_OTHER_LDFLAGS = -framework "AlipaySDK" -framework "SystemConfiguration" -framework "openssl"

@@ -1,25 +1,35 @@
 {
   "name": "AliPaySDK-QIAO",
-  "version": "0.1.0",
-  "summary": "A short description of AliPaySDK-QIAO.",
+  "version": "2.2.3",
+  "summary": "支付宝sdk-2.2.3",
   "description": "An optional longer description of AliPaySDK-QIAO\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AliPaySDK-QIAO",
+  "homepage": "https://b.alipay.com/newIndex.htm",
   "license": "MIT",
   "authors": {
     "葬花桥": "wangqiniqan@126.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AliPaySDK-QIAO.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/SouHanaQiao/AliPaySDK-QIAO.git",
+    "branch": "master",
+    "tag": "2.2.3"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "AliPaySDK-QIAO": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "resources": "Pod/Assets/AlipaySDK.bundle",
+  "vendored_frameworks": "Pod/Assets/AlipaySDK.framework",
+  "public_header_files": [
+    "Pod/Assets/AlipaySDK.framework/Headers/**/*.h",
+    "Pod/Assets/openssl.framework/headers/**/*.h"
+  ],
+  "frameworks": "SystemConfiguration",
+  "subspecs": [
+    {
+      "name": "Util",
+      "source_files": "Pod/Classes/**/*",
+      "public_header_files": "Pod/Classes/**/*.h",
+      "vendored_frameworks": "Pod/Assets/openssl.framework"
+    }
+  ]
 }
